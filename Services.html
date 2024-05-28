@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    
+    <link rel="icon" href="images/Maa Jaay Laa.1jpg.png">
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Services</title>
+    <style>
+        /*Destination CSS*/
+#popular-destination {
+    padding: 0 10% ;
+    margin-bottom: 50px;
+}
+#popular-destination .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 32px;
+}
+#popular-destination .content .box {
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+    transition: 0.5s;
+}
+#popular-destination .content .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0.5s;
+}
+.box .content  h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.box .content p {
+    padding: 2px;
+    font-size: 12px;
+}
+.box .content p:nth-child(3){
+    margin-bottom: 25px;
+}
+.box .content a {
+    margin-top: 60px;
+    padding: 1px 40px;
+    border: 0px solid blue;
+    color: blue;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.box .content a:hover{
+    box-shadow: 0 0 10px blue;
+}
+.box:hover {
+    box-shadow: 0 0 10px blue;
+}
+.box:hover .content {
+    transform: translateX(0);
+}
+
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div class="top-nav">
+      <div class="container d-flex">
+        <p>Commandez en ligne ou appelez-nous :<a href="tel:221781037802">(+221)781037802</a></p>
+        <ul class="d-flex">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>Maa Jaay Laa</h1></a>
+
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a href="produit.html" class="nav-link">Produits</a>
+          </li>
+          <li class="nav-item">
+            <a href="Services.html" class="nav-link">Services</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="connexion.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="panier.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="connexion.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="panier.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+    <!-- section portfolio -->
+    <section id="popular-destination">
+        <h1 class="title">Services</h1>
+        <div class="content">
+            <!-- box -->
+            <div class="box">
+                <img src="images/Plan de travail 1.png" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Kisma Global Services</h4>
+                        <p>Propose de multitude de services</p>
+                        <p>Création de site web, Création de logo, Flyer, Carte de visite</p>
+                        <a href="tel:221781037802">
+                            <i class='bx bxs-phone-call'></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=221781037802&text&type=phone_number&app_absent=0" target="_blank">
+                            <i class='bx bxl-whatsapp-square'></i>
+                        </a>
+                        <a href="mailto:KaderKamite8@gmail.com?subject=Sujet du message" target="_blank">
+                            <i class='bx bxl-gmail'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- box -->
+            <!-- box -->
+            <div class="box">
+                <img src="images/DKTravel.png" alt="">
+                <div class="content">
+                    <div>
+                        <h4>DKTravel</h4>
+                        <p>vous accompagne pour vos prise de rendez-vous, vos Réservation d'hôtel,</p>
+                        <p></p>
+                        <a href="tel:221787117742">
+                            <i class='bx bxs-phone-call'></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=221787117742&text&type=phone_number&app_absent=0" target="_blank">
+                            <i class='bx bxl-whatsapp-square'></i>
+                        </a>
+                        <a href="mailto:giedktravel@gmail.com?subject=Sujet du message" target="_blank">
+                            <i class='bx bxl-gmail'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- box -->
+            <!-- box -->
+            <div class="box">
+                <img src="images/ECO.png" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Élites Construction</h4>
+                        <p>est une entreprise qui évolue dans le secteur de l’immobilier, du bâtiment & travaux publics </p>
+                        <p>plus d'infos...</p>
+                        <a href="tel:221781377691">
+                            <i class='bx bxs-phone-call'></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=221781377691&text&type=phone_number&app_absent=0" target="_blank">
+                            <i class='bx bxl-whatsapp-square'></i>
+                        </a>
+                        <a href="mailto:mamesaliou@gmail.com?subject=Sujet du message" target="_blank">
+                            <i class='bx bxl-gmail'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> 
+   <!-- Contact -->
+   <section class="section contact">
+    <div class="row">
+      <div class="col">
+        <h2>EXCELLENT SOUTIEN</h2>
+        <p>Nous aimons nos clients et ils peuvent nous joindre à tout moment de la journée. Nous serons à votre service 24h/24 et 7j/7.</p>
+        <a href="tel=+221781037802" class="btn btn-1">Contact</a>
+      </div>
+      <div class="col">
+        <form action="">
+          <div>
+            <input type="email" placeholder="Email Address">
+          <a href="mailto:kaderkamite8@gmail.com?subject=Sujet du message">Envoyer</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+      
+            
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row">
+          <div class="col d-flex">
+            <h4>INFORMATION</h4>
+            <a href="">à propos de nous</a>
+            <a href="https://api.whatsapp.com/send/?phone=221781037802&text&type=phone_number&app_absent=0" target="_blank">Contactez-nous</a>
+            <a href="">Termes et Conditions</a>
+            <a href="">Guide d'expédition</a>
+          </div>
+          <div class="col d-flex">
+            <h4>LIEN UTILE</h4>
+            <a href="index.html">Boutique en ligne</a>
+            <a href="https://api.whatsapp.com/send/?phone=221781037802&text&type=phone_number&app_absent=0" target="_blank">Services Client</a>
+            <a href="">Promotion</a>
+            <a href="">Meilleures marques</a>
+          </div>
+          <div class="col d-flex">
+            <span><a href="https://www.facebook.com/Kaderamite"  target="_blank"> <i class='bx bxl-facebook-square'></i></a></span>
+            <span><a href="https://www.instagram.com/Kaderamite" target="_blank"><i class='bx bxl-instagram-alt' ></i></a></span>
+            <span><a href="https://github.com/KADERKAMITE"  target="_blank"><i class='bx bxl-github' ></i></a></span>
+            <span><a href="https://api.whatsapp.com/send/?phone=221781037802&text&type=phone_number&app_absent=0" target="_blank"><i class='bx bxl-whatsapp'></i></a></span>
+            <span><a href="tel:221787117742"><i class="fa fa-phone" aria-hidden="true"></i></a></span>
+          </div>
+        </div>
+        <p>&copy;ce site a été réalisé par
+            <a href="mailto:Kaderkamite8@gmail.com?subject=Sujet du message" target="_blank">
+                <span>KKamité</span> 
+            </a>| 
+        </p>
+      </footer>
+  
+    </html>
